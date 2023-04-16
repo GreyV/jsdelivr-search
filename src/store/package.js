@@ -1,18 +1,18 @@
 import jsdelivrDataService from '@/services/jsdelivrDataService'
 
 const convertBytes = (bytes) => {
-    const mb = bytes / (1024 * 1024)
-    if (mb > 1024) {
-      const gb = mb / 1024
-      if (gb > 1024) {
-        const tb = gb / 1024
-        return tb.toFixed(2) + ' TB'
-      } else {
-        return gb.toFixed(2) + ' GB'
-      }
+  const mb = bytes / (1024 * 1024)
+  if (mb > 1024) {
+    const gb = mb / 1024
+    if (gb > 1024) {
+      const tb = gb / 1024
+      return tb.toFixed(2) + ' TB'
     } else {
-      return mb.toFixed(2) + ' MB'
+      return gb.toFixed(2) + ' GB'
     }
+  } else {
+    return mb.toFixed(2) + ' MB'
+  }
 }
 
 const state = () => ({

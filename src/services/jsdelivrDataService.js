@@ -1,5 +1,4 @@
 class jsdelivrDataService {
-
   constructor() {
     this.endpoint = `https://data.jsdelivr.com/v1/`
   }
