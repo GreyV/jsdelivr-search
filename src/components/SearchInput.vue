@@ -4,6 +4,7 @@
       <input
         v-model="query"
         type="text"
+        @keydown.enter.prevent="search"
         class="form-control"
         placeholder="Type package name"
         aria-label="search"

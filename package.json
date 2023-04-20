@@ -1,6 +1,6 @@
 {
   "name": "jsdelivr-search",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "dev": "vite",
@@ -23,5 +23,9 @@
     "prettier": "^2.8.4",
     "sass": "^1.62.0",
     "vite": "^4.1.4"
-  }
+  },
+  "description": "An example Vue.js application for searching npm packages info using the jsDelivr API",
+  "main": "vite.config.js",
+  "author": "",
+  "license": "MIT"
 }
